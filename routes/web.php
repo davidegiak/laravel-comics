@@ -14,13 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $data = [
-        "msgs" => [
-            "hello",
-            "#125",
-            "BELLAAAAAA"
-        ]
-    ];
+    $data = config("store");
     return view('home', $data);
 });
 
