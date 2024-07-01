@@ -66,10 +66,9 @@ a{
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 1rem 0;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
     background-color: rgba(108, 122, 137, 0.3);
     padding: 2rem;
 }
@@ -83,4 +82,33 @@ span{
 .about-thumb{
     width: 30rem;
     height: 40rem;
+}
+.head{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #023E8A;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 1rem;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+main{
+   padding-top: 10rem;
+   min-height: 79vh;
+}
+.footCont{
+    display: flex;
+    justify-content: space-between;
+    background-color: #023E8A;
+    padding: 1rem;
+}
+form{
+    text-align: center;
 }

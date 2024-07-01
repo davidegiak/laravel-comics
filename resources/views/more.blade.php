@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>laravel-comics</title>
-    <link rel="stylesheet" href="/app.css">
-</head>
-
-<body>
+@section('content')
     <div class="thumb">
         <div class="cardDesc">
             <h4>{{ $fumetto['title'] }} </h4>
@@ -24,6 +15,4 @@
             <img src=" {{ $fumetto['thumb'] }} " alt="" style="width: 100%" height="100%">
         </div>
     </div>
-</body>
-
-</html>
+@endsection
